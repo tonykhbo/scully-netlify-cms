@@ -1,0 +1,7 @@
+<nav *ngIf="(isAdminPage$ | async) === false" style="margin-top: 15px">
+	<a routerLink="/">Home</a>
+	<a routerLink="/admin">Admin</a>
+	<a routerLink="/blog">Blog Posts</a>
+</nav>
+
+<router-outlet></router-outlet>

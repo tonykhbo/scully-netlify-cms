@@ -1,0 +1,11 @@
+nav {
+	margin-bottom: 20px;
+
+	a {
+		margin-left: 15px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+}
